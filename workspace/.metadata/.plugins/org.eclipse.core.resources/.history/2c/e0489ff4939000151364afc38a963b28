@@ -1,0 +1,53 @@
+package edu.sc.csce740.model;
+
+<<<<<<< HEAD
+import java.util.List;
+
+=======
+/**
+ * Class generating a progress summary for a given student at the University of South Carolina
+ * @author Maximus Brandel
+ * @author Ibrahim Elsayed
+ * @author Christian Merchant
+ * @version 1.00 2015-11-21
+ *
+ */
+>>>>>>> b26f745d42d1cad2d55df96b42996867ba4643a1
+public class ProgressSummary {
+
+	private StudentRecord record;
+	private RequirementCheck results;
+	private List<RequirementCheckResults> requirementCheckResults;
+	/**
+	 * @return the record
+	 */
+	public StudentRecord getRecord() {
+		return record;
+	}
+
+	/**
+	 * @param record the record to set
+	 */
+	public void setRecord(StudentRecord record) {
+		this.record = record;
+	}
+
+	/**
+	 * @return the results
+	 */
+	public List<RequirementCheckResults> getResults() {
+		String degreeName = record.getDegreeSought().getDegreeName();
+		results = new RequirementCheck();
+		requirementCheckResults = results.generateResults(record);
+
+		return requirementCheckResults;
+	}
+
+	/**
+	 * @param results the results to set
+	 */
+	public void setResults(RequirementCheck results) {
+		this.results = results;
+	}
+	
+}

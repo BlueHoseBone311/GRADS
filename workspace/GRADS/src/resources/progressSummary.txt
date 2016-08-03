@@ -1,0 +1,59 @@
+{
+  "student": {
+    "id": "doe",
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  "department": "COMPUTER_SCIENCE",
+  "termBegan": {
+    "semester": "SPRING",
+    "year": 2008
+  },
+  "degreeSought": {
+    "name": "INFAS",
+    "graduation": {
+      "semester": "SPRING",
+      "year": 2018
+    }
+  },
+  "requirementCheckResults": [
+    {
+      "name": "CORE_COURSES_INFAS",
+      "passed": "false",
+      "details": {
+        "coursesTaken": [],
+        "notes": [
+          "Must pass CSCE522 Information Security Principles",
+          "Must pass CSCE715 Network Systems Security",
+          "Must pass CSCE727 Information Warfare"
+        ]
+      }
+    },
+    {
+      "name": "ADDITIONAL_CREDITS_INFAS",
+      "passed": "false",
+      "details": {
+        "notes": [
+          "At least 9 hours must be CSCE courses numbered above 700 that are not core courses",
+          "Must pass 18 more hours of CSCE courses numbered above 700 that are not core courses."
+        ]
+      }
+    },
+    {
+      "name": "TIME_LIMIT_INFAS",
+      "passed": "false",
+      "details": {
+        "notes": [
+          "The time limit of 6 years has been exceeded"
+        ]
+      }
+    },
+    {
+      "name": "GPA",
+      "passed": "false",
+      "details": {
+        "gpa": 0.0
+      }
+    }
+  ]
+}

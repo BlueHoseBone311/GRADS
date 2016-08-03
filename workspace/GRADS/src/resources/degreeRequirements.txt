@@ -1,0 +1,447 @@
+[
+	{
+	"degreeName": "ME",
+	"coreCourses":[
+                  {
+                    "name": "Computer Architecture",
+                    "id": "csce513",
+                    "numCredits": "3"
+                  },
+                 
+                {
+                  
+                      "name": "Compiler Construction",
+                      "id": "csce531",
+                      "numCredits": "3"
+                 
+                },
+               {
+                  
+                       "name": "Analysis of Algorithms",
+                       "id": "csce750",
+                       "numCredits": "3"
+               
+                },
+                {
+                  
+                    "name": "Seminar in Advances in Computing",
+                    "id": "csce791",
+                    "numCredits": "1"
+                 
+                }
+               ],
+             "minGPA": 3.0,
+             "maxDegreeTime": 6,
+             "dissertation": false,
+             "thesis": false,
+             "report": false,
+             "exam": false,
+             "qualifyingExam": false,
+             "comprehensiveExam": true,
+             "additionalCreditHours": 11,
+             "additionalCreditExcludeCourseIDs": [
+             						"csce797"
+             						],
+	     	  "thesisCreditHours": 0,
+	     	  "thesisCourseIDs": [
+	     	  						"csce799"
+	     	  						],
+             "degreeBasedCreditHours": 30,
+             "degreeBasedNonCSCEHours": 6,
+             "degreeBasedMaxCourse": "csce798",
+             "degreeBasedMaxHours": 3,
+             "degreeBasedExcludeCourseIDs": [
+             							"csce797"
+             						], 
+             "coursesInvalidYears" : 6,          
+	     "milestones": [
+                 {
+                 "milestone": "ACADEMIC_ADVISOR_APPOINTED"                 
+                 },
+                 {
+                 "milestone": "PROGRAM_OF_STUDY_SUBMITTED"                 
+                 },
+                 {
+                 "milestone": "COMPREHENSIVE_EXAM_PASSED"                 
+                 }
+               ]
+             
+            },
+            {
+	"degreeName": "MSE",
+	"coreCourses":[
+                  {
+                    "name": "Software Engineering",
+                    "id": "csce740",
+                    "numCredits": "3"
+                  },
+                 
+                {
+                  
+                      "name": "Software Process",
+                      "id": "csce741",
+                      "numCredits": "3"
+                 
+                },
+                {
+                  
+                       "name": "Software Architecture",
+                       "id": "csce742",
+                       "numCredits": "3"
+                 
+                },
+                {
+                  
+                       "name": "Software Requirements",
+                       "id": "csce743",
+                       "numCredits": "3"
+               
+                },
+                {
+                  
+                    "name": "Software Testing",
+                    "id": "csce747",
+                    "numCredits": "3"
+                 
+                }
+               ],
+             "minGPA": 3.0,
+             "maxDegreeTime": 6,
+             "dissertation": false,
+             "thesis": false,
+             "report": true,
+             "exam": false,
+             "qualifyingExam": false,
+             "comprehensiveExam": true,
+             "additionalCreditHours": 15,
+             "additionalCreditExcludeCourseIDs": [
+             						 "csce797"
+             						],
+             "additionalCreditIncludeCourses":[
+             						{
+	             					  "name": "System Programming",
+	             					  "id": "csce510"
+             					 	},
+             					 	{
+	             					  "name": "System Performance Evaluation",
+	             					  "id": "csce512"
+             					 	},
+             					 	{
+	             					  "name": "Computer Network Programming",
+	             					  "id": "csce515"
+             					 	},
+             					 	{
+	             					  "name": "Computer Networks",
+	             					  "id": "csce516"
+             					 	},
+             					 	{
+	             					  "name": "Database System Design",
+	             					  "id": "csce520"
+             					 	},
+             					 	{
+	             					  "name": "Information Security Principles",
+	             					  "id": "csce522"
+             					 	},
+             					 	{
+	             					  "name": "Windows Programming",
+	             					  "id": "csce547"
+             					 	},
+             					 	{
+	             					  "name": "Physical Database Design",
+	             					  "id": "csce721"
+             					 	},
+             					 	{
+	             					  "name": "Advanced Database Design",
+	             					  "id": "csce723"
+             					 	},
+             					 	{
+	             					  "name": "Information Retrieval: Algorithms and Models",
+	             					  "id": "csce725"
+             					 	},
+             					 	{
+	             					  "name": "Object-Oriented Analysis and Design",
+	             					  "id": "csce744"
+             					 	},
+             					 	{
+	             					  "name": "Object-Oriented Programming Methods",
+	             					  "id": "csce745"
+             					 	},
+             					 	{
+	             					  "name": "Interactive Computer Systems",
+	             					  "id": "csce767"
+             					 	},
+             					 	{
+	             					  "name": "Multiagent Systems",
+	             					  "id": "csce782"
+             					 	},
+             					 	{
+	             					  "name": "Distributed Database Design",
+	             					  "id": "csce821"
+             					 	},
+             					 	{
+	             					  "name": "Data Mining and Warehousing",
+	             					  "id": "csce822"
+             					 	},
+             					 	{
+	             					  "name": "Cooperative Information Systems",
+	             					  "id": "csce826"
+             					 	},
+             					 	{
+	             					  "name": "Software Reliability and Safety",
+	             					  "id": "csce846"
+             					 	},
+             					 	{
+	             					  "name": "Project Management",
+	             					  "id": "mgsc872"
+             					 	}
+             					],  
+         "coursesInvalidYears" : 6,         
+	     "milestones": [
+                 {
+                 "milestone": "ACADEMIC_ADVISOR_APPOINTED"                 
+                 },
+                 {
+                 "milestone": "PROGRAM_OF_STUDY_SUBMITTED"                 
+                 },
+                 {
+                 "milestone": "COMPREHENSIVE_EXAM_PASSED"                 
+                 },
+		  {
+                 "milestone": "REPORT_SUBMITTED"                 
+                 },
+                 {
+                 "milestone": "REPORT_APPROVED"                 
+                 }
+               ],
+             "internship":{
+             		"name": "Internship in Software Engineering",
+             		"id": "csce793",
+             		"numCredits": "1"
+             		}
+             
+            },
+            {
+	"degreeName": "MS",
+	"coreCourses":[
+                  {
+                    "name": "Computer Architecture",
+                    "id": "csce513",
+                    "numCredits": "3"
+                  },
+                 
+                {
+                  
+                      "name": "Compiler Construction",
+                      "id": "csce531",
+                      "numCredits": "3"
+                 
+                },
+               {
+                  
+                       "name": "Analysis of Algorithms",
+                       "id": "csce750",
+                       "numCredits": "3"
+               
+                },
+                {
+                  
+                    "name": "Seminar in Advances in Computing",
+                    "id": "csce791",
+                    "numCredits": "1"
+                 
+                }
+               ],
+             "minGPA": 3.0,
+             "maxDegreeTime": 6,
+             "dissertation": false,
+             "thesis": true,
+             "report": false,
+             "exam": true,
+             "qualifyingExam": false,
+             "comprehensiveExam": false,
+             "additionalCreditHours": 8,
+             "additionalCreditExcludeCourseIDs": [
+             						 "csce797"
+             						],
+	     	  "thesisCreditHours": 6,
+	     	  "thesisCourseIDs": [
+	     	  						"csce799"
+	     	  						],
+             "degreeBasedCreditHours": 24,
+             "degreeBasedNonCSCEHours": 6,
+             "degreeBasedMaxCourse": "csce798",
+             "degreeBasedMaxHours": 3,
+             "degreeBasedExcludeCourseIDs": [
+             							"csce797"
+             						],
+             "coursesInvalidYears" : 6,
+             "milestones": [
+		{
+                 "milestone": "ACADEMIC_ADVISOR_APPOINTED"                 
+                 },
+                 {
+                 "milestone": "PROGRAM_OF_STUDY_SUBMITTED"                 
+                 },                 
+		{
+                 "milestone": "THESIS_ADVISOR_SELECTED"                 
+                 },
+                 {
+                 "milestone": "THESIS_COMMITTEE_FORMED"                 
+                 },
+                 {
+                 "milestone": "THESIS_PROPOSAL_SCHEDULED"                 
+                 },
+                 {
+                 "milestone": "THESIS_PROPOSAL_APPROVED"                 
+                 },
+		 {
+                 "milestone": "THESIS_SUBMITTED"                 
+                 },
+                 {
+                 "milestone": "THESIS_DEFENSE_SCHEDULED"                 
+                 },
+		 {
+                 "milestone": "THESIS_DEFENSE_PASSED"                 
+                 }
+               ]
+             
+            },
+             {
+	"degreeName": "PHD",
+	"coreCourses":[
+                  {
+                    "name": "Computer Architecture",
+                    "id": "csce513",
+                    "numCredits": "3"
+                  },
+                 
+                {
+                  
+                      "name": "Compiler Construction",
+                      "id": "csce531",
+                      "numCredits": "3"
+                 
+                },
+                 {
+                  
+                      "name": "Theory of Computation",
+                      "id": "csce551",
+                      "numCredits": "3"
+                 
+                },
+               {
+                  
+                       "name": "Analysis of Algorithms",
+                       "id": "csce750",
+                       "numCredits": "3"
+               
+                },
+                {
+                  
+                    "name": "Seminar in Advances in Computing",
+                    "id": "csce791",
+                    "numCredits": "1"
+                 
+                }
+               ],
+             "minGPA": 3.0,
+             "maxDegreeTime": 8,
+             "dissertation": true,
+             "thesis": false,
+             "report": false,
+             "exam": false,
+             "qualifyingExam": true,
+             "comprehensiveExam": true,
+             "additionalCreditHours": 20,
+             "additionalCreditExcludeCourseIDs": [
+             						 "csce799",
+             						 "csce899"
+             						],
+	     	  "thesisCreditHours": 12,
+	     	  "thesisCourseIDs": [
+	     	  						"csce899"
+	     	  						],
+             "degreeBasedCreditHours": 48,
+             "degreeBasedCreditHoursWithValidMasterDegree": 24,
+             "degreeBasedExcludeCourseIDs": [
+             							"csce799",
+             							"csce899"
+             						],
+             "coursesInvalidYears" : 6,             
+             "milestones": [
+		 		 {
+		 		 "milestone": "PROGRAM_OF_STUDY_SUBMITTED"                 
+                 }, 
+                 {
+                 "milestone": "QUALIFYING_EXAM_PASSED"                 
+                 },
+                 {
+                 "milestone": "DISSERTATION_ADVISOR_SELECTED"                 
+                 },
+                 {
+                 "milestone": "DISSERTATION_COMMITTEE_FORMED"                 
+                 },
+                 {
+                 "milestone": "DISSERTATION_PROPOSAL_SCHEDULED"                 
+                 },
+                 {
+                 "milestone": "DISSERTATION_PROPOSAL_APPROVED"                 
+                 },
+		 {
+                 "milestone": "DISSERTATION_SUBMITTED"                 
+                 },
+		 {
+                 "milestone": "DISSERTATION_DEFENSE_SCHEDULED"                 
+                 },
+                 {
+                 "milestone": "DISSERTATION_DEFENSE_PASSED"                 
+                 },
+                 {
+                 "milestone": "COMPREHENSIVE_EXAM_PASSED"                 
+                 }
+               ]
+             
+            },
+            {
+	"degreeName": "INFAS",
+	"coreCourses":[
+                  {
+                    "name": "Information Security Principles",
+                    "id": "csce522",
+                    "numCredits": "3"
+                  },
+                 
+                {
+                  
+                      "name": "Network Systems Security",
+                      "id": "csce715",
+                      "numCredits": "3"
+                 
+                },
+               {
+                  
+                       "name": "Information Warfare",
+                       "id": "csce727",
+                       "numCredits": "3"
+               
+                }
+               ],
+             "minGPA": 3.0,
+             "maxDegreeTime": 6,
+             "dissertation": false,
+             "thesis": false,
+             "report": false,
+             "exam": true,
+             "qualifyingExam": false,
+             "comprehensiveExam": false,
+             "additionalCreditHours": 18,
+             "additionalCreditExcludeCourseIDs": [
+             						"csce799"
+     								],
+     		"additionalCreditINFASMinHours": 9,
+     		"additionalCreditINFASMaxNonCSCEHours": 6,
+     		"additionalCreditINFASMaxIncludeMasterHours": 9,
+     		"coursesInvalidYears" : 6
+             
+            }
+]
